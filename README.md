@@ -26,12 +26,12 @@ BiRR4CPath/
 │   ├── train_sft.sh
 │   ├── merge_lora.sh
 │   ├── train_grpo.sh
-│   └── train_grpo_token.sh
+│   ├── train_grpo_token.sh
+│   └── infer.py                   # Two-stage LoRA inference
 ├── docs/
 │   └── DATA_FORMAT.md
 ├── examples/
 │   └── sample_rl_record.json
-├── infer.py                   # Two-stage LoRA inference
 ├── requirements.txt
 └── .env.example
 ```
@@ -162,7 +162,7 @@ Use a **merged SFT** checkpoint as the base, then run token LoRA → task LoRA i
 
 ```bash
 export MODEL_PATH=/path/to/merged-sft
-python infer.py \
+python scripts/infer.py \
   --model "${MODEL_PATH}" \
   --lora-stage1 /path/to/token-lora-checkpoint \
   --lora-stage2 /path/to/task-lora-checkpoint \
