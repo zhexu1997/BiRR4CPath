@@ -154,7 +154,7 @@ Registered in `grpo/plugin.py` for `--reward_funcs`:
 
 - `[[x1,y1,x2,y2],...]` → detection (AP50 default)
 - `(A)`, `(B)`, … → multiple choice
-- otherwise → open (BLEU-4 or BERT-score F1)
+- otherwise → open (BLEU-4)
 
 ## Inference (two-stage LoRA)
 
