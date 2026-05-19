@@ -1,0 +1,14 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Given the histopathology image, classify the lesion. Options: (A) benign (B) malignant."
+      }
+    ],
+    "images": [
+      {"path": "/path/to/your/slide.png"}
+    ],
+    "solution": "<think>Example reasoning.</think><answer>(A) benign</answer>"
+  }
+]
