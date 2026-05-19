@@ -9,6 +9,6 @@
     "images": [
       {"path": "/path/to/your/slide.png"}
     ],
-    "solution": "<think>Example reasoning.</think><answer>(A) benign</answer>"
+    "solution": "<answer>(A) benign</answer>"
   }
 ]
