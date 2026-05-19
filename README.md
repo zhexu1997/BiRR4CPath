@@ -153,7 +153,7 @@ Registered in `grpo/plugin.py` for `--reward_funcs`:
 **Task-type detection** (from ground-truth `solution`):
 
 - `[[x1,y1,x2,y2],...]` → detection (AP50 default)
-- `(A)`, `(B)`, … → multiple choice (exact match)
+- `(A)`, `(B)`, … → multiple choice
 - otherwise → open (BLEU-4 or BERT-score F1)
 
 ## Inference (two-stage LoRA)
