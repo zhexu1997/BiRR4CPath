@@ -1,0 +1,17 @@
+# ms-swift v3.4 (required; do not upgrade to 3.5+ without code changes)
+ms-swift>=3.4.0,<3.5.0
+torch>=2.1.0
+transformers>=4.45.0
+qwen-vl-utils>=0.0.8
+flash-attn>=2.5.0; platform_system != "Windows"
+
+# Reward plugin
+numpy>=1.24.0
+nltk>=3.8.0
+
+# Optional: open-ended BERT-score metric
+bert-score>=0.3.13
+huggingface_hub>=0.20.0
+
+# Data preparation (token allocation script)
+Pillow>=10.0.0
