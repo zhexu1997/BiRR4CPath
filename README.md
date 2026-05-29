@@ -6,7 +6,7 @@ Multimodal pathology image understanding has garnered widespread interest due to
 
 ## Features
 
-- **Multimodal pathology tasks**: classification (CLS), detection (DET), and video question answering (VQA)
+- **Multimodal pathology tasks**: classification (CLS), detection (DET), and visual question answering (VQA)
 - **GRPO rewards** via `grpo/plugin.py`:
   - `external_acc` — task accuracy (choice / detection AP / open BLEU)
   - `external_format` — enforces `<think>` + `<answer>` structure
